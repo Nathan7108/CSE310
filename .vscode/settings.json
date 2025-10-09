@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "CSE310 Module 1",
+            "database": "\"C:\\Users\\natha\\CSE310\\module1\\users.db\""
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
