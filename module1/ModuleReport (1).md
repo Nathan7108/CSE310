@@ -5,7 +5,7 @@
 | Nathan Luckock | | Bro McGary |
 
 ### Project Repository Link
-Copy the link to your [Github Repository](<!-- Insert Link Here -->)
+Copy the link to your [Github Repository](https://github.com/Nathan7108/CSE310/tree/main/module1)
 
 ### Module
 Mark an **X** next to the module you completed

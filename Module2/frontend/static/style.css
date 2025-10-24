@@ -1,0 +1,153 @@
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #0a0a0a;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.95) !important;
+    border-bottom: 1px solid #333;
+}
+
+.card {
+    background: rgba(20, 20, 20, 0.9);
+    border: 1px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.card-header {
+    background: rgba(30, 30, 30, 0.9);
+    border-bottom: 1px solid #333;
+}
+
+.btn-primary {
+    background: #0066cc;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 24px;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+.btn-primary:hover {
+    background: #0052a3;
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #444;
+    border-radius: 6px;
+    color: white;
+    padding: 12px 24px;
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.launch-card {
+    background: rgba(25, 25, 25, 0.8);
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    transition: border-color 0.2s ease;
+}
+
+.launch-card:hover {
+    border-color: #0066cc;
+}
+
+.status-success {
+    color: #00ff88;
+    font-weight: 600;
+}
+
+.status-failed {
+    color: #ff4444;
+    font-weight: 600;
+}
+
+.loading {
+    display: none;
+}
+
+.error-message {
+    background: rgba(255, 68, 68, 0.1);
+    border: 1px solid #ff4444;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.rocket-icon {
+    font-size: 1.5rem;
+    color: #0066cc;
+}
+
+.mission-details {
+    background: rgba(30, 30, 30, 0.8);
+    border-radius: 6px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.links-section {
+    background: rgba(30, 30, 30, 0.8);
+    border-radius: 6px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.link-item {
+    display: block;
+    color: #0066cc;
+    text-decoration: none;
+    padding: 8px 0;
+    transition: color 0.2s ease;
+}
+
+.link-item:hover {
+    color: #0088ff;
+    text-decoration: none;
+}
+
+.form-control {
+    background: rgba(30, 30, 30, 0.8);
+    border: 1px solid #444;
+    color: white;
+    border-radius: 6px;
+}
+
+.form-control:focus {
+    background: rgba(30, 30, 30, 0.9);
+    border-color: #0066cc;
+    color: white;
+    box-shadow: 0 0 0 0.2rem rgba(0, 102, 204, 0.25);
+}
+
+.text-muted {
+    color: #888 !important;
+}
+
+.text-primary {
+    color: #0066cc !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+}
