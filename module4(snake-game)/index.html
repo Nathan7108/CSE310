@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header-bar">
+            <div class="header-left">
+                <span class="icon">🍎</span>
+                <span id="score">0</span>
+                <span class="icon">🏆</span>
+                <span id="highScore">0</span>
+            </div>
+            <div class="header-right">
+                <button class="icon-btn">⛶</button>
+                <button class="icon-btn">🔊</button>
+                <button class="icon-btn">✕</button>
+            </div>
+        </div>
+        <div class="game-container">
+            <canvas id="gameCanvas" width="500" height="500"></canvas>
+            <div id="startModal" class="modal">
+                <div class="modal-content">
+                    <h2>Press an Arrow Key to Start</h2>
+                </div>
+            </div>
+            <div id="gameOverModal" class="modal hidden">
+                <div class="modal-content">
+                    <h2>Game Over!</h2>
+                    <p class="final-score">Final Score: <span id="finalScore">0</span></p>
+                    <div class="modal-buttons">
+                        <button id="playAgainBtn">Play Again</button>
+                        <button id="menuBtn">Menu</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="pauseBtn">Pause</button>
+            <button id="restartBtn">Restart</button>
+            <button id="aiBtn">AI Mode</button>
+        </div>
+        <div class="difficulty">
+            <label>Difficulty:</label>
+            <select id="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium" selected>Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+        </div>
+        <div class="instructions">
+            <p>Use arrow keys to control the snake</p>
+        </div>
+    </div>
+    <script src="js/snake.js"></script>
+    <script src="js/ai.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
+
