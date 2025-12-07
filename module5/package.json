@@ -1,0 +1,13 @@
+{
+  "name": "drawing-app",
+  "version": "1.0.0",
+  "description": "Simple drawing app with TypeScript",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
+

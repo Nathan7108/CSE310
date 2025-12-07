@@ -1,11 +1,11 @@
-# Module #3 Report | CSE 310 – Applied Programming
+# Module #5 Report | CSE 310 – Applied Programming
 
 |Name|Date|Teacher|
 |-|-|-|
 | Nathan Luckock | | Bro McGary |
 
 ### Project Repository Link
-Copy the link to your [Github Repository](https://github.com/Nathan7108/CSE310/tree/main/module3)
+Copy the link to your [Github Repository](https://github.com/Nathan7108/CSE310/tree/structure/module5)
 
 ### Module
 Mark an **X** next to the module you completed
@@ -13,12 +13,12 @@ Mark an **X** next to the module you completed
 |Module                   | |Language                  | |
 |-------------------------|-|--------------------------|-|
 |Cloud Databases          | | Java                     | |
-|Data Analysis            |x | python                   | x|
+|Data Analysis            | | Kotlin                   | |
 |Game Framework           | | R                        | |
 |GIS Mapping              | | Erlang                   | |
 |Mobile App               | | JavaScript               | |
 |Networking               | | C#                       | |
-|Web Apps                 | | TypeScript               | |
+|Web Apps                 |x | TypeScript               |x|
 |Language – C++           | | Rust                     | |
 |SQL Relational Databases | |Choose Your Own Adventure | |
 
@@ -28,17 +28,17 @@ Complete the following checklist to make sure you completed all parts of the mod
 |Question                                                                                         |Your Response|Comments|
 |--------------------------------------------------------------------------------------------------------------------|-|-|
 |Did you implement the entire set of unique requirements as described in the Module Description document in I-Learn? | Yes | |
-|Did you write at least 100 lines of code in your software and include useful comments?                              | Yes | 582 lines with comments |
+|Did you write at least 100 lines of code in your software and include useful comments?                              | Yes | 117 lines in app.ts |
 |Did you use the correct README.md template from the Module Description document in I-Learn?                         | Yes | |
 |Did you completely populate the README.md template?                                                                 | Yes | |
-|Did you create the video, publish it on YouTube, and reference it in the README.md file?                            | Yes | |
+|Did you create the video, publish it on YouTube, and reference it in the README.md file?                            | Yes | https://www.loom.com/share/9f68b9a677a7483b8c3465bba0903f80 |
 |Did you publish the code with the README.md (in the top-level folder) into a public GitHub repository?              | Yes | |
  
 
 ### Did you complete a Stretch Challenge 
 If you completed a stretch challenge, describe what you completed.
 
-Yes, I went over the amount of code needed and created a web app for this as well
+Yes, I added undo functionality with history tracking, touch support for mobile devices, and save/download feature to export drawings as PNG images
 
 
 ### Record your time
@@ -47,16 +47,17 @@ How many hours did you spend on this module and the team project this Sprint?
 
 |              |Hours|
 |------------------|-|
-|Individual Module | 5 |
-|Team Project      | 3 |
+|Individual Module | 2 |
+|Team Project      | 5 |
 
 ### Retrospective
 - What learning strategies worked well in this module?
-  Breaking down the problem into smaller functions worked well.
+  Using TypeScript helped catch errors early. Breaking the code into clear functions made it easier to understand and fix issues.
 - What strategies (or lack of strategy) did not work well?
-  Not leaving enough time for the video.
+  Touch event handling was tricky at first. Had to test on mobile to get it working right.
 - How can you improve in the next module?
-  Maybe split up my code into multiple files if I know it will be long.
+  Test on different devices earlier in development to catch mobile issues sooner.
 
 
 <!-- Create this Markdown to a PDF and submit it. In visual studio code you can convert this to a pdf with any one of the extensions. -->
+
